@@ -1,0 +1,90 @@
+.card {
+  background-color: white;
+  border-radius: 10px;
+  border-color: #312c2e;
+  box-shadow: 0px 0px 10px rgba(37, 37, 37, 0.2);
+  padding: 0.15rem 1rem 0.15rem 1rem;
+  margin: 1rem 1rem 0rem 1rem;
+  width: 340px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card:hover {
+    cursor: pointer;
+    transform: translateY(-3px);
+}
+
+.container1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 4%;
+  height: 30%;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 7%;
+}
+
+.companyName {
+  font-size: medium;
+  color: rgb(85, 85, 85);
+}
+
+.role {
+  font-size: large;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  margin-top: -3%;
+}
+
+.container3 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3%;
+}
+
+.time {
+  font-size: small;
+  font-style: italic;
+}
+
+.techStack {
+  font-size: small;
+  font-weight: 600;
+  color: #24c76a;
+  padding: 0rem 0.5rem 0rem 0.5rem;
+  box-sizing: border-box;
+  width: fit-content;
+  border-color: #d7fae7;
+  border-width: 0.1rem;
+  border-radius: 3px;
+  border-style: solid;
+  background-color: #d7fae7;
+}
+
+.hr {
+  background-color: #eeeeee;
+}
+
+.container4 {
+  display: flex;
+}
+
+.techUsed {
+  font-size: medium;
+  font-weight: 600;
+  color: #838383;
+  padding: 0rem 0.2rem 0rem 0.2rem;
+  margin-top: 0;
+  margin-left: 0.2rem;
+  width: fit-content;
+  border-color: #f1f1f1;
+  border-width: 0.1rem;
+  border-radius: 3px;
+  border-style: solid;
+  background-color: #f1f1f1;
+}
